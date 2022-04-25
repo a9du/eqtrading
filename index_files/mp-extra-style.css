@@ -1,0 +1,250 @@
+/*
+*
+* Magical posts display pro style
+*
+*
+*/
+
+.venoframe.vbvid {
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Video style*/
+
+a.mgpd-light.video-light {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+a.mgpm-imglink {
+    display: block;
+    overflow: hidden;
+}
+.mpvideo-grid img{
+    width:100%;
+}
+.mgplay-overlay,
+.mgp-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.mgplay-overlay {
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    min-width: 40%;
+}
+.mgp-overlay{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: #000;
+    opacity: 0.5
+}
+a.mgpd-light .play-btn i{
+    font-size: 40px;
+    color: #fff;
+    opacity: 0.6;
+    line-height: 40px;
+}
+
+p.mgplay-text {
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+}
+a.mgpd-light.video-light {
+    min-height: 100px;
+}
+.play-btn {
+    margin-top: 10px;
+}
+.mgplay-overlay.mgpicon-icon {
+    height: 70px;
+}
+.mgplay-overlay.mgpover-text {
+    height: 25px;
+}
+
+.mgpac-card img{
+    max-width:100%;
+    width:auto;
+}
+
+.mgpac-card .video-light,
+.mgpac-card .video-light img{
+   width:100%;
+}
+.mgpac-card .mgpm-img{
+    margin-bottom: 10px;
+}
+
+
+/*slider effect*/
+.swiper-slide {
+      background-position: center;
+      background-size: cover;
+    }
+.mgps.mgp-slider .mggsvideo a.mgpd-light.video-light {
+    position: unset;
+    width: 100%;
+}
+a.mgpd-light.mgvideoicon.vbox-item {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    z-index: 99999;
+    font-size: 53px;
+    line-height: 50px;
+    color: #ededed;
+}
+.swiper-pagination-bullet-active {
+    background: #888 !important;
+}
+a.mgpd-light.mgvideoicon.vbox-item {
+    display: inline-block;
+}
+a.mgpd-light.mgvideoicon.mgvi-bottom-right{
+    left: auto;
+    right: 5px;
+}
+a.mgpd-light.mgvideoicon.mgvi-top-right{
+    left: auto;
+    bottom: auto;
+    top: 5px;
+    right: 5px;
+}
+a.mgpd-light.mgvideoicon.mgvi-top-left{
+    bottom: auto;
+    top: 5px;
+}
+
+/*card style two*/
+.mpdcs2 .card,
+.mgpd.mpdcs2 .card{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    overflow:inherit;
+}
+
+.mpdcs2 .mgpm-img a {
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    border-radius: 0.25rem;
+}
+
+.mpdcs2 .mgpm-img a img {
+    transform: scale(1);
+    transition: 0.5s;
+    width: 100% !important;
+}
+
+.mpdcs2 .card:hover .mgpm-img a img {
+    transform: scale(1.1);
+}
+
+.mpdcs2 .card-body {
+}
+
+.mpdcs2 .mgpm-img {
+    width: 104%;
+    margin-left: -2%;
+}
+.mpdcs2 .card .card-body {
+    padding-top: 2rem;
+}
+/*Card style three*/
+.mpdcs3 .card {
+    background: transparent;
+    border: inherit;
+    box-shadow: inherit !important;
+}
+
+.mpdcs3 .card .card-body {
+    margin-top: -1rem;
+    overflow: hidden;
+    z-index: 9999;
+    background: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 110px;
+    position: inherit;
+}
+.mgfilers .mpdcs3 .card .card-body {
+    margin-bottom: 10px;
+}
+.mgfilers .mgfs-three .btn-primary:not(:disabled):not(.disabled).active{
+    color:inherit;
+}
+.mgpcpro.mpdcs3 .card .card-body {
+    width:80%;
+}
+.mgp-filters .mgfm-full li {
+    flex: 1 !important;
+}
+.mpdcs3 .card .mgpm-img a {
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    border-radius: 0.25rem;
+}
+.promgpdsti ul {
+    margin: -10px 0 0 0;
+}
+/* .acme-news-ticker-box ,
+.mgpd.mgptickerpro.mgpd-right .acmeticker-wrap ul{
+    padding: 10px;
+   
+} */
+.acme-news-ticker-box ul {
+    padding: 10px;
+    display: inline-block;
+}
+.acme-news-ticker-label {
+    text-align: center;
+}
+
+/*Pro carousel style*/
+.mpcait1 .mgpc-card {
+    display: flex;
+    flex-direction: row;
+}
+.mgpc-card img {
+    width: 100%;
+}
+.mpcait1 .mgpc-card .mgpm-img {
+    height: auto;
+    width: 40%;
+}
+.mpcait1 .mgpc-card .card-body {
+    width: 60%;
+}
+.mpcait1 .mgpc-card .mgpm-img img {
+    width: 100%;
+    height: auto;
+}
+.mpcait3 .mgpdg1-card {
+    background: transparent !important;
+}
+.mpcait3 .mgpdg1-card .card-body {
+    background: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+    .mpcait1 .mgpc-card {
+        flex-wrap: wrap;
+    }
+    .mpcait1 .mgpc-card .mgpm-img {
+        flex-basis: 100%;
+        height: auto;
+        max-width: 100%;
+        width: 100%;
+    }
+
+
+}
